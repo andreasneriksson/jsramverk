@@ -4,9 +4,17 @@
 
 npm install
 
+## Bygg prod
+
+npm run build
+
 ## Starta applikationen
 
 serve -s build
+
+
+
+
 
 
 ## Min installation
