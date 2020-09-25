@@ -47,5 +47,3 @@ Skapar produktions miljön för appen, den "riktiga" miljön.
 
 Men om jag förstår det rätt så kan man med denna "ejecta" byggverktygen och config så att de istället ligger direkt i projektet.
 
-
-
