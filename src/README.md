@@ -29,7 +29,7 @@ I projektkatalogen kan du köra:
 
 Kör appen i acceptans/utvecklings miljö.
 
-Öppna [http://localhost:3000](http://localhost:3000) för att se den i din browser.
+Öppna [http://localhost:5000](http://localhost:5000) för att se den i din browser.
 
 Sidan laddar om när du projektet sparas och man får se "lint errors" i konsolen.
 
