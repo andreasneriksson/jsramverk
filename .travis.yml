@@ -1,0 +1,25 @@
+language: node_js
+
+node_js:
+    - "node"
+    - "12"
+    - "10"
+
+sudo: false
+
+git:
+    submodules: false
+
+# env:
+    # - JWT_SECRET="randomSecretJustToRunSomeTests"
+
+before_script:
+    - npm install -g forever
+
+script:
+    - forever start -c 'npm start' ./
+    - npm test
+
+
+after_success:
+    - forever stopall

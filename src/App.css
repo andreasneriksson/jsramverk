@@ -61,9 +61,10 @@ h1 {
 }
 
 .dubbel-slot {
-  width: 49%;
+  width: 48%;
   display: inline-block;
   text-align: left;
+  vertical-align: top;
 }
 
 .dubbel-slot:first-of-type {

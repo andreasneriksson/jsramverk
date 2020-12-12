@@ -14,6 +14,7 @@ class Login extends React.Component {
   handleSubmit = (e) => {
       e.preventDefault();
       const apiUrl = `${baseUrl}login/`;
+      //const proxyUrl = 'http://localhost:1337/'
 
       const user = {
           "email": this.state.email,

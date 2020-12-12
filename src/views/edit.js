@@ -36,7 +36,7 @@ class EditReport extends React.Component {
     handleSubmit = (e) => {
         e.preventDefault();
         var id = this.props.match.params.id;
-        const apiUrl = 'http://localhost:1337/editreport/' + this.props.match.params.id;
+        const apiUrl = `${baseUrl}editreport/${this.props.match.params.id}`;
 
         console.log(localStorage.getItem('token'));
 

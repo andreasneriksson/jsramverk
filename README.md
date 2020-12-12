@@ -1,5 +1,13 @@
 [GitHub repo](https://github.com/andreasneriksson/jsramverk)
 
+[![Build Status](https://travis-ci.org/andreasneriksson/jsramverk.svg?branch=master)](https://travis-ci.org/andreasneriksson/jsramverk)
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/andreasneriksson/jsramverk/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/andreasneriksson/jsramverk/?branch=master)
+
+[![Code Coverage](https://scrutinizer-ci.com/g/andreasneriksson/jsramverk/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/andreasneriksson/jsramverk/?branch=master)
+
+[![Build Status](https://scrutinizer-ci.com/g/andreasneriksson/jsramverk/badges/build.png?b=master)](https://scrutinizer-ci.com/g/andreasneriksson/jsramverk/build-status/master)
+
 ## Installera npm moduler
 
 npm install
