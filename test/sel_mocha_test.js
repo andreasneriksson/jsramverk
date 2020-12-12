@@ -64,7 +64,7 @@ test.describe("Test Me-page", function() {
         // Check heading
         browser.findElement(By.css("h1")).then(function(element) {
             element.getText().then(function(text) {
-                assert.equal(text, "Kursmoment null");
+                assert.equal(text, "Kursmoment 1");
             });
         });
 
