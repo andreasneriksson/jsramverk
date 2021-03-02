@@ -6,6 +6,7 @@ import Reports from './views/reports.js';
 import Register from './views/register.js';
 import Login from './views/login.js';
 import EditReport from './views/edit.js';
+import Chatfunction from './views/chatfunction.js';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -33,6 +34,9 @@ export default function App() {
               <li>
                 <Link to="/register">Registrera</Link>
               </li>
+              <li>
+                <Link to="/chatfunction">Chatt</Link>
+              </li>
             </ul>
           </nav>
         </aside>
@@ -45,6 +49,7 @@ export default function App() {
           <Route exact strict path="/edit/:id" component={EditReport}/>
           <Route exact strict path="/login" component={Login}/>
           <Route exact strict path="/register" component={Register}/>
+          <Route exact strict path="/chatfunction" component={Chatfunction}/>
           <Route exact strict path="/">
             <Home />
           </Route>
@@ -55,6 +60,7 @@ export default function App() {
 }
 
 
+// // fetch text from markdown file
 // class Presentation extends Component {
 //   constructor() {
 //     super();
